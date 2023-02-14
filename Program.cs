@@ -6,7 +6,7 @@
         {
             Random generator = new Random();
             // ------------------------------------------------------------------------------------- ONE
-            //maddox
+            
             Console.WriteLine("Random Integers");
             int minNum, maxNum, randInt1_1, randInt1_2, randInt1_3, randInt1_4, randInt1_5;
             Console.WriteLine("Enter a minimum value: ");
@@ -47,7 +47,10 @@
             randInt2_1 = generator.Next(minNum, maxNum);
             randInt2_2 = generator.Next(minNum, maxNum);
             randInt2_3 = generator.Next(minNum, maxNum);
-            
+
+            Console.WriteLine(randInt2_1 + randDouble1_1);
+            Console.WriteLine(randInt2_2 + randDouble1_2);
+            Console.WriteLine(randInt2_3 + randDouble1_3);
 
         }
     }
